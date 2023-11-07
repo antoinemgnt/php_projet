@@ -1,0 +1,5 @@
+06/11/2023  01:38:06 - Pseudo : Antoine - Résultat: Excellent ! Vous avez trouvé le nombre 20 en 4 tentatives .
+06/11/2023  01:47:15 - Pseudo : Antoine - Résultat: Excellent ! Vous avez trouvé le nombre 70 en 6 tentatives .
+07/11/2023  07:54:26 - Pseudo : Antoine - Résultat: Excellent ! Vous avez trouvé le nombre 91 en 9 tentatives .
+07/11/2023  07:56:44 - Pseudo : Antoine - Résultat: Excellent ! Vous avez trouvé le nombre 79 en 8 tentatives .
+07/11/2023  07:57:29 - Pseudo : Antoine - Résultat: Excellent ! Vous avez trouvé le nombre 95 en 5 tentatives .
