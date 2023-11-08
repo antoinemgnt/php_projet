@@ -7,5 +7,4 @@ $sommeNote = array_sum($notes);
 $i= count($notes);
 
 $moyenne = $sommeNote / $i;
-echo "La moyenne de cet étudiant à l'examen final est de: $sommeNote / $i = $moyenne";
-
+echo "La moyenne de classe à l'examen final est de: $sommeNote / $i = $moyenne";
