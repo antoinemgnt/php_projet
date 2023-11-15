@@ -11,7 +11,7 @@ for ($i=0; $i < count($notes); $i++){
     echo $notes[$i] . PHP_EOL;
 }
 echo PHP_EOL;
-//affichage du tableau avec une boucle for
+//affichage du tableau avec une boucle foreach
 foreach ($notes as $note){
     echo $note.PHP_EOL;
 }
