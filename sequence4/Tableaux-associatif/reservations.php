@@ -20,15 +20,15 @@ $emprunts = [];
 // La recherche retourne un tableau associatif des livres correspondants ( cle : isbn, valeur : titre+auteur).
 // Afficher le résultat de la recherche
 
-Votre code ICI
+
 
 // Gestion des emprunts
 // Un adhérent (chaine de caractère) peut emprunter un livre.
-// Les emprunts sont stockés dans un tableau associatifs $emprunts (clé : isbn, valeur : nom de l'emprunteur)
-// Un livre déjà emprunter ne peut pas être emprunté
-// Demander à l'utilisateur de saisir le nom de l'adhérent et l'isbn du livre à emprunter puis créer l'emprunt
+// Les emprunts sont stockés dans un tableau associatif $emprunts (clé : isbn, valeur : nom de l'emprunteur)
+// Un livre déjà emprunté ne peut pas être emprunté
+// Demander à l'utilisateur de saisir le nom de l'adhérent et l'ISBN du livre à emprunter puis créer l'emprunt
 
-Votre code ICI
+
 
 
 
