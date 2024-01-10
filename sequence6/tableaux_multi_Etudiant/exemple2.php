@@ -16,17 +16,41 @@ $personnes = [
 
 echo "-------------------------------------" . PHP_EOL;
 // Afficher une valeur particulière du tableau
+echo $personnes[1]["prenom"].PHP_EOL;
 
 // Afficher toutes les valeurs du tableau
 echo "-------------------------------------" . PHP_EOL;
+foreach ($personnes as $personne){
+    //$personne est un tableau associatif
+    foreach ($personne as $valeur){
+        echo "$valeur ";
+    }
+    echo PHP_EOL;
+}
 
 // Afficher toutes les valeurs du tableau avec le destructuring
 // Utilisation possible car chaque valeur (tableau associatif) possède les mêmes clés
 echo "-------------------------------------" . PHP_EOL;
+foreach ($personnes as $personne){
+    //Utilisation du destructuring
+    ["nom"=>$nom, "prenom"=>$prenom, "age"=>$age] = $personne;
+    echo "$nom $prenom $age".PHP_EOL;
+}
 
 // Afficher tous les éléments (index et valeur) du tableau
 echo "-------------------------------------" . PHP_EOL;
+foreach ($personnes as $index => $personne){
+    foreach ($personne as $cle => $valeur){
+        echo "personnes [$index][$cle] = $valeur".PHP_EOL;
+    }
+}
 
 // Calculer la moyenne d'âge des personnes du tableau
 echo "-------------------------------------" . PHP_EOL;
+$somme = 0;
+foreach ($personnes as $personne){
+    $somme += $personne["age"];
+}
+$moyenne = $somme/count($personnes);
+echo "La moyenne d'age est de : $moyenne.";
 

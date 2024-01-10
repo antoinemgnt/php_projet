@@ -1,0 +1,18 @@
+SELECT : Rechercher des données dans différentes tables.
+INSERT : Ajouter des enregistrements dans une table.
+UPDATE : Modifier des enregistrements dans une table.
+DELETE : Supprimer des enregistrements dans une table.
+
+CRUD = Create(INSERT) Retrieve(SELECT) Update(UPDATE) Delete(DELETE)
+
+Logiciels
+-> PHP
+-> SGBD (Système de Gestion de Base de Données) exemple : Oracle, MySQL,MariaDB, SQL Server,PostgreSQL
+-> Server WEB (Héberger des sites WEB) exemple : Apache, Nginx
+-> PHPMyAdmin (Gérer un SGBD(MySQL, MariaDB))
+
+1) Installation séparé de tous ces logiciels + Configuration manuelle.
+2) Installer une "Server Stack" qui s'occuper de tout exemple : WAMP(Windows Apache MySQL PHP)
+                                                                LAMP(Linux Apache MySQL PHP)
+                                                                MAMP(Mac Apache MySQL PHP)
+                                                                XAMPP(Multi-plateforme Apache MySQL PHP)
